@@ -148,6 +148,3 @@ Open the `.epro2` files with **File → Open → EasyEDA Pro project** in EasyED
 - [x] Validate hub and CH347F enumeration
 - [x] Configure and flash the TPS25751 EEPROM
 - [x] Raise laptop charging to 100 W
-- [ ] Design and print the full set of accessory pucks
-- [ ] Test the level shifter with long puck cables
-- [ ] Write the user guide
