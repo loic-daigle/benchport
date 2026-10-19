@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/logo/benchport-logo-on-dark.svg">
+    <img src="docs/logo/benchport-logo-on-light.svg" alt="Benchport" width="560">
+  </picture>
+</p>
+
 # Benchport: under-desk USB-C dock and debug station.
 
 | Top | Side | Front |
