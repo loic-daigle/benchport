@@ -106,8 +106,8 @@ The board was designed in EasyEDA Pro and fabricated and assembled at JLCPCB.
 | File | Description |
 |---|---|
 | [`hardware/easyeda/benchport-mainboard-revA.epro2`](hardware/easyeda/benchport-mainboard-revA.epro2) | Main board EasyEDA Pro project (editable source) |
-| [`hardware/easyeda/benchport-pcb2-revA.epro2`](hardware/easyeda/benchport-pcb2-revA.epro2) | PCB2 EasyEDA Pro project (11-pin FPC connector board) |
-| [`hardware/easyeda/benchport-pcb3-revA.epro2`](hardware/easyeda/benchport-pcb3-revA.epro2) | PCB3 EasyEDA Pro project (pogo connector board) |
+| [`hardware/easyeda/benchport-pogo-dock-revA.epro2`](hardware/easyeda/benchport-pogo-dock-revA.epro2) | Pogo dock board EasyEDA Pro project (magnetic puck dock, FPC link to the main board) |
+| [`hardware/easyeda/benchport-puck-i2c-spi-revA.epro2`](hardware/easyeda/benchport-puck-i2c-spi-revA.epro2) | I2C/SPI puck EasyEDA Pro project |
 | [`hardware/mainboard/benchport-mainboard-schematic.pdf`](hardware/mainboard/benchport-mainboard-schematic.pdf) | Main board schematic (PDF) |
 | [`firmware/tps25751/`](firmware/tps25751/) | TPS25751 PD controller EEPROM image and configuration |
 
