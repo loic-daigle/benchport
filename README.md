@@ -5,13 +5,15 @@
   </picture>
 </p>
 
-# Benchport: under-desk USB-C dock and debug station.
+# Benchport: under-desk USB-C dock and debug station
 
 | Top | Side | Front |
 |:---:|:---:|:---:|
 | ![top](https://image.easyeda.com/oshwhub/pullImage/ca96a6eacd824d9591369acb5b3c3872.jpg) | ![side](https://image.easyeda.com/oshwhub/pullImage/35ed8f0b45684cfda32ebeee98f4ef13.jpg) | ![front](https://image.easyeda.com/oshwhub/pullImage/68c121f7d69c444a84d63350737d9a25.jpg) |
 
-An open-source under-desk docking station for electronics benches. It combines a USB 3 hub, USB-C power delivery to your laptop, and a built-in multi-protocol programming and debug interface. One USB-C cable to the laptop gives you charging, USB ports and a programmer/debugger, with no extra dongles.
+An open hardware (non-commercial) under-desk docking station for electronics benches. It combines a USB 3 hub, USB-C power delivery to your laptop, and a built-in multi-protocol programming and debug interface. One USB-C cable to the laptop gives you charging, USB ports and a programmer/debugger, with no extra dongles.
+
+**Live design:** the editable EasyEDA project (latest schematic and PCB) is on OSHWLab. This repo holds the cleaned-up documentation, the PD firmware and tested snapshots of each hardware revision.
 
 ### Final desk integration (render)
 
@@ -85,7 +87,7 @@ The TPS25751 boots in SafeMode (ADCIN1/ADCIN2 tied to GND) and loads its firmwar
 
 To set it up:
 
-1. Download **[`config_TPS25751_F8091166_fullFlash.bin`](firmware/tps25751/config_TPS25751_F8091166_fullFlash.bin)** from [`firmware/tps25751/`](firmware/tps25751/). It's a ready-to-flash Full Flash image with the configuration below.
+1. Download **[`config_TPS25751_F8091166_fullFlash.bin`](firmware/tps25751/config_TPS25751_F8091166_fullFlash.bin)** from [`firmware/tps25751/`](firmware/tps25751/). It's a ready-to-flash Full Flash image with the configuration below. The folder's README has the full flashing guide.
 2. Write the binary to the EEPROM. There are two ways:
    - **Through the TPS25751:** connect to the I2Ct test pads (SCL/SDA/GND, I2C address 0x21). Program with the FLad → FLwd → FLvy → GAID 4CC command sequence from the TPS25751 Technical Reference Manual.
    - **Directly:** write the image to the CAT24C512 on the I2Cc bus at 0x50.
@@ -101,7 +103,7 @@ Configuration in the provided image (for reference, or to rebuild it in TI's TPS
 
 ## Hardware files
 
-The board was designed in EasyEDA Pro and fabricated and assembled at JLCPCB.
+The board was designed in EasyEDA Pro and fabricated and assembled at JLCPCB. The files below are the tested rev A snapshot; the live, latest design is on OSHWLab.
 
 | File | Description |
 |---|---|
@@ -148,3 +150,18 @@ Open the `.epro2` files with **File → Open → EasyEDA Pro project** in EasyED
 - [x] Validate hub and CH347F enumeration
 - [x] Configure and flash the TPS25751 EEPROM
 - [x] Raise laptop charging to 100 W
+- [x] Publish documentation on GitHub
+- [ ] Design and print the full set of accessory pucks
+- [ ] Test the level shifter with long puck cables
+- [ ] Write the user guide
+
+## Links
+
+- **OSHWLab:** live EasyEDA schematic and PCB, always the latest version
+- **This repo:** documentation, TPS25751 firmware, logo files and tested hardware releases
+
+## License
+
+Benchport is licensed under **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)**: you can build, modify and share it for non-commercial use, with credit and under the same license. Commercial use is reserved to the author.
+
+The TPS25751 firmware contained in the `.bin` image is TI's and is covered by TI's own license terms.
