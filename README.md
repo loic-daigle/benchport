@@ -109,6 +109,9 @@ The board was designed in EasyEDA Pro and fabricated and assembled at JLCPCB.
 | [`hardware/easyeda/benchport-pogo-dock-revA.epro2`](hardware/easyeda/benchport-pogo-dock-revA.epro2) | Pogo dock board EasyEDA Pro project (magnetic puck dock, FPC link to the main board) |
 | [`hardware/easyeda/benchport-puck-i2c-spi-revA.epro2`](hardware/easyeda/benchport-puck-i2c-spi-revA.epro2) | I2C/SPI puck EasyEDA Pro project |
 | [`hardware/mainboard/benchport-mainboard-schematic.pdf`](hardware/mainboard/benchport-mainboard-schematic.pdf) | Main board schematic (PDF) |
+| [`hardware/mainboard/fabrication/benchport-mainboard-gerbers-revA.zip`](hardware/mainboard/fabrication/benchport-mainboard-gerbers-revA.zip) | Main board Gerbers and drill files (4-layer), ready to upload to JLCPCB |
+| [`hardware/mainboard/fabrication/benchport-mainboard-bom-revA.csv`](hardware/mainboard/fabrication/benchport-mainboard-bom-revA.csv) | Main board BOM with LCSC part numbers |
+| [`hardware/mainboard/fabrication/benchport-mainboard-cpl-revA.csv`](hardware/mainboard/fabrication/benchport-mainboard-cpl-revA.csv) | Main board pick-and-place (CPL) file |
 | [`firmware/tps25751/`](firmware/tps25751/) | TPS25751 PD controller EEPROM image and configuration |
 
 Open the `.epro2` files with **File → Open → EasyEDA Pro project** in EasyEDA Pro.
