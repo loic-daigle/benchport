@@ -9,7 +9,7 @@ With a blank EEPROM the TPS25751 stays idle. You get no PD contract, no power to
 | File | What it is |
 |---|---|
 | `config_TPS25751_F8091166_fullFlash.bin` | Ready-to-flash Full Flash image (TI firmware F809.11.66 + Benchport configuration). This is what goes into the EEPROM. |
-| `benchport_tps25751_config.json` | Project file for TI's TPS25751 Application Customization Tool. Open it to change the configuration and export a new `.bin`. |
+| `config_TPS25751_F8091166_raw.json` | Project file for TI's TPS25751 Application Customization Tool. Open it to change the configuration and export a new `.bin`. |
 
 ## Configuration in this image
 
@@ -75,7 +75,7 @@ The TPS25751 is also a controller on that bus and reads the EEPROM at power-up, 
 
 ## Changing the configuration
 
-1. Open `benchport_tps25751_config.json` in **TI's TPS25751 Application Customization Tool**.
+1. Open `config_TPS25751_F8091166_raw.json` in **TI's TPS25751 Application Customization Tool**.
 2. Edit the settings (for example the PDOs, to match a different charger).
 3. Export a **Full Flash** binary and flash it as described above.
 
