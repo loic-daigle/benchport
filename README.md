@@ -115,6 +115,9 @@ The board was designed in EasyEDA Pro and fabricated and assembled at JLCPCB.
 | [`hardware/pogo-board/fabrication/benchport-pogo-dock-gerbers-revA.zip`](hardware/pogo-board/fabrication/benchport-pogo-dock-gerbers-revA.zip) | Pogo dock Gerbers and drill files (2-layer), ready to upload to JLCPCB |
 | [`hardware/pogo-board/fabrication/benchport-pogo-dock-bom-revA.csv`](hardware/pogo-board/fabrication/benchport-pogo-dock-bom-revA.csv) | Pogo dock BOM with LCSC part numbers |
 | [`hardware/pogo-board/fabrication/benchport-pogo-dock-cpl-revA.csv`](hardware/pogo-board/fabrication/benchport-pogo-dock-cpl-revA.csv) | Pogo dock pick-and-place (CPL) file |
+| [`hardware/puck-i2c-spi/fabrication/benchport-puck-i2c-spi-gerbers-revA.zip`](hardware/puck-i2c-spi/fabrication/benchport-puck-i2c-spi-gerbers-revA.zip) | I2C/SPI puck Gerbers and drill files (2-layer), ready to upload to JLCPCB |
+| [`hardware/puck-i2c-spi/fabrication/benchport-puck-i2c-spi-bom-revA.csv`](hardware/puck-i2c-spi/fabrication/benchport-puck-i2c-spi-bom-revA.csv) | I2C/SPI puck BOM with LCSC part numbers (R1, the ID resistor, is left as TBD; see [Puck ID resistors](#puck-id-resistors)) |
+| [`hardware/puck-i2c-spi/fabrication/benchport-puck-i2c-spi-cpl-revA.csv`](hardware/puck-i2c-spi/fabrication/benchport-puck-i2c-spi-cpl-revA.csv) | I2C/SPI puck pick-and-place (CPL) file |
 | [`firmware/tps25751/`](firmware/tps25751/) | TPS25751 PD controller EEPROM image and configuration |
 
 Open the `.epro2` files with **File → Open → EasyEDA Pro project** in EasyEDA Pro.
