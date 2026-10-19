@@ -112,6 +112,9 @@ The board was designed in EasyEDA Pro and fabricated and assembled at JLCPCB.
 | [`hardware/mainboard/fabrication/benchport-mainboard-gerbers-revA.zip`](hardware/mainboard/fabrication/benchport-mainboard-gerbers-revA.zip) | Main board Gerbers and drill files (4-layer), ready to upload to JLCPCB |
 | [`hardware/mainboard/fabrication/benchport-mainboard-bom-revA.csv`](hardware/mainboard/fabrication/benchport-mainboard-bom-revA.csv) | Main board BOM with LCSC part numbers |
 | [`hardware/mainboard/fabrication/benchport-mainboard-cpl-revA.csv`](hardware/mainboard/fabrication/benchport-mainboard-cpl-revA.csv) | Main board pick-and-place (CPL) file |
+| [`hardware/pogo-board/fabrication/benchport-pogo-dock-gerbers-revA.zip`](hardware/pogo-board/fabrication/benchport-pogo-dock-gerbers-revA.zip) | Pogo dock Gerbers and drill files (2-layer), ready to upload to JLCPCB |
+| [`hardware/pogo-board/fabrication/benchport-pogo-dock-bom-revA.csv`](hardware/pogo-board/fabrication/benchport-pogo-dock-bom-revA.csv) | Pogo dock BOM with LCSC part numbers |
+| [`hardware/pogo-board/fabrication/benchport-pogo-dock-cpl-revA.csv`](hardware/pogo-board/fabrication/benchport-pogo-dock-cpl-revA.csv) | Pogo dock pick-and-place (CPL) file |
 | [`firmware/tps25751/`](firmware/tps25751/) | TPS25751 PD controller EEPROM image and configuration |
 
 Open the `.epro2` files with **File → Open → EasyEDA Pro project** in EasyEDA Pro.
