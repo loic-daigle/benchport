@@ -85,7 +85,7 @@ The TPS25751 boots in SafeMode (ADCIN1/ADCIN2 tied to GND) and loads its firmwar
 
 To set it up:
 
-1. Download **`config_TPS25751_F8091166_fullFlash.bin`** from the files section of this project. It's a ready-to-flash Full Flash image with the configuration below.
+1. Download **[`config_TPS25751_F8091166_fullFlash.bin`](firmware/tps25751/config_TPS25751_F8091166_fullFlash.bin)** from [`firmware/tps25751/`](firmware/tps25751/). It's a ready-to-flash Full Flash image with the configuration below.
 2. Write the binary to the EEPROM. There are two ways:
    - **Through the TPS25751:** connect to the I2Ct test pads (SCL/SDA/GND, I2C address 0x21). Program with the FLad → FLwd → FLvy → GAID 4CC command sequence from the TPS25751 Technical Reference Manual.
    - **Directly:** write the image to the CAT24C512 on the I2Cc bus at 0x50.
@@ -98,6 +98,20 @@ Configuration in the provided image (for reference, or to rebuild it in TI's TPS
 - Source PDOs: **5 V / 3 A** and **20 V / 5 A**
 - GPIO1 = UFP/DFP event (push-pull), which drives the hub's USB_VBUS detect
 - GPIO2 = cable orientation event (push-pull), which drives the upstream SS mux
+
+## Hardware files
+
+The board was designed in EasyEDA Pro and fabricated and assembled at JLCPCB.
+
+| File | Description |
+|---|---|
+| [`hardware/easyeda/benchport-mainboard-revA.epro2`](hardware/easyeda/benchport-mainboard-revA.epro2) | Main board EasyEDA Pro project (editable source) |
+| [`hardware/easyeda/benchport-pogo-dock-revA.epro2`](hardware/easyeda/benchport-pogo-dock-revA.epro2) | Pogo dock board EasyEDA Pro project (magnetic puck dock, FPC link to the main board) |
+| [`hardware/easyeda/benchport-puck-i2c-spi-revA.epro2`](hardware/easyeda/benchport-puck-i2c-spi-revA.epro2) | I2C/SPI puck EasyEDA Pro project |
+| [`hardware/mainboard/benchport-mainboard-schematic.pdf`](hardware/mainboard/benchport-mainboard-schematic.pdf) | Main board schematic (PDF) |
+| [`firmware/tps25751/`](firmware/tps25751/) | TPS25751 PD controller EEPROM image and configuration |
+
+Open the `.epro2` files with **File → Open → EasyEDA Pro project** in EasyEDA Pro.
 
 ## Design decisions
 
