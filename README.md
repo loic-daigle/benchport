@@ -13,7 +13,7 @@
 
 An open hardware (non-commercial) under-desk docking station for electronics benches. It combines a USB 3 hub, USB-C power delivery to your laptop, and a built-in multi-protocol programming and debug interface. One USB-C cable to the laptop gives you charging, USB ports and a programmer/debugger, with no extra dongles.
 
-**Live design:** the editable EasyEDA project (latest schematic and PCB) is on OSHWLab. This repo holds the cleaned-up documentation, the PD firmware and tested snapshots of each hardware revision.
+**Live design:** the editable EasyEDA project (latest schematic and PCB) is on [OSHWLab](https://oshwlab.com/loicdaigle31/project_urejofry). This repo holds the cleaned-up documentation, the PD firmware and tested snapshots of each hardware revision.
 
 ### Final desk integration (render)
 
@@ -103,7 +103,7 @@ Configuration in the provided image (for reference, or to rebuild it in TI's TPS
 
 ## Hardware files
 
-The board was designed in EasyEDA Pro and fabricated and assembled at JLCPCB. The files below are the tested rev A snapshot; the live, latest design is on OSHWLab.
+The board was designed in EasyEDA Pro and fabricated and assembled at JLCPCB. The files below are the tested rev A snapshot; the live, latest design is on [OSHWLab](https://oshwlab.com/loicdaigle31/project_urejofry).
 
 | File | Description |
 |---|---|
@@ -157,7 +157,7 @@ Open the `.epro2` files with **File → Open → EasyEDA Pro project** in EasyED
 
 ## Links
 
-- **OSHWLab:** live EasyEDA schematic and PCB, always the latest version
+- **[OSHWLab](https://oshwlab.com/loicdaigle31/project_urejofry):** live EasyEDA schematic and PCB, always the latest version
 - **This repo:** documentation, TPS25751 firmware, logo files and tested hardware releases
 
 ## License
